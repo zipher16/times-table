@@ -1,0 +1,24 @@
+.submitButton {
+	margin-top: 10px;
+}
+
+/* Ensures the body takes up at least the full height of the viewport */
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+/* Uses Flexbox to center the content */
+body {
+	display: flex;
+	justify-content: center; /* Centers horizontally */
+	align-items: center; /* Centers vertically */
+	text-align: center; /* Centers the text inside the card */
+	padding: 20px; /* Adds some padding around the body to ensure content is not flush with the viewport edge */
+}
+
+.card {
+	width: 100%; /* Adjusts the card's width; you can set this to a fixed width if preferred */
+	max-width: 500px; /* Ensures the card doesn't grow beyond 500px */
+}
